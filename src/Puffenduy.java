@@ -46,7 +46,6 @@ public class Puffenduy extends Hogwarts {
                 "\n Колдовство = " + witchcraft;
 
     }
-
     public void comparePuffenduy(Puffenduy studentSecond) {
         int powerFirst = this.industriousness + this.loyalty + this.honesty;
         int powerSecond = studentSecond.industriousness + studentSecond.loyalty + studentSecond.honesty;

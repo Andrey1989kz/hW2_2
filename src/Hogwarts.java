@@ -10,7 +10,6 @@ public abstract class Hogwarts {
         this.transgress = transgress;
         this.witchcraft = witchcraft;
     }
-
     public String getName() {
         return name;
     }

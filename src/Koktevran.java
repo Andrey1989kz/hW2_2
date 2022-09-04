@@ -56,7 +56,6 @@ public class Koktevran extends Hogwarts {
                 "\n Колдовство = " + witchcraft;
 
     }
-
     public void compareKoktevran(Koktevran studentSecond) {
         int powerFirst = this.mind + this.wisdom + this.wit + this.creativity;
         int powerSecond = studentSecond.mind + studentSecond.wisdom + studentSecond.wit + studentSecond.creativity;
