@@ -1,7 +1,7 @@
 public class Puffenduy extends Hogwarts {
-    int industriousness;//трудолюибе
-    int loyalty;// верность
-    int honesty;//честность
+   private int industriousness;//трудолюибе
+    private int loyalty;// верность
+    private int honesty;//честность
 
     public Puffenduy(String name, String faculty, int transgress, int witchcraft, int industriousness, int loyalty, int honesty) {
         super(name, faculty, transgress, witchcraft);
@@ -57,7 +57,7 @@ public class Puffenduy extends Hogwarts {
                     "\n" + studentSecond.name + " сильнее чем " + this.name);
         } else {
             System.out.println("Сравнение студентов факультета Пуффендуй:" +
-                    "\n" + this.name + " одинаковы по силе " + studentSecond);
+                    "\n" + this.name + " одинаковы по силе " + studentSecond.name);
         }
     }
 }

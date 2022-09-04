@@ -1,9 +1,9 @@
 public class Slytherin extends Hogwarts {
-    int theTrick;//хитрость
-    int determination;//решительность
-    int ambition;
-    int resourcefulness;//находчивость
-    int lustForPower;// жажда власти
+  private   int theTrick;//хитрость
+    private int determination;//решительность
+    private int ambition;
+    private int resourcefulness;//находчивость
+    private int lustForPower;// жажда власти
 
     public Slytherin(String name, String faculty, int transgress, int witchcraft, int theTrick, int determination, int ambition, int resourcefulness, int lustForPower) {
         super(name, faculty, transgress, witchcraft);
@@ -76,7 +76,7 @@ public class Slytherin extends Hogwarts {
                     "\n" + studentSecond.name + " сильнее чем " + this.name);
         }else {
             System.out.println("Сравнение студентов факультета Слизерин:" +
-                    "\n" + this.name + " одинаковы по силе " + studentSecond);
+                    "\n" + this.name + " одинаковы по силе " + studentSecond.name);
         }
     }
 }

@@ -1,8 +1,8 @@
 public abstract class Hogwarts {
-    String name;
-    String faculty;
-    int transgress;
-    int witchcraft;// колдовство
+   protected String name;
+   protected String faculty;
+     protected int transgress;
+     protected int witchcraft;// колдовство
 
     public Hogwarts(String name, String faculty, int transgress, int witchcraft) {
         this.name = name;
@@ -19,9 +19,6 @@ public abstract class Hogwarts {
         return faculty;
     }
 
-    public void setFaculty(String faculty) {
-        this.faculty = faculty;
-    }
 
     public int getTransgress() {
         return transgress;

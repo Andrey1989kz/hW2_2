@@ -1,7 +1,7 @@
-public class Griffindor extends Hogwarts   {
-    int nobility;// благородство
-    int honor;//честь
-    int bravery;// храбрость
+ public class Griffindor extends Hogwarts   {
+   private int nobility;// благородство
+   private int honor;//честь
+   private int bravery;// храбрость
 
 
 
@@ -57,6 +57,6 @@ public class Griffindor extends Hogwarts   {
                     "\n" + studentSecond.name + " сильнее чем " + this.name);
         } else {
             System.out.println("Сравнение студентов факультета Гриффиндор:" +
-                    "\n" + this.name + " одинаковы по силе " + studentSecond);}
+                    "\n" + this.name + " одинаковы по силе " + studentSecond.name);}
     }
 }

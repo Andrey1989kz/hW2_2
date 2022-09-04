@@ -28,5 +28,6 @@ public class Main {
         System.out.println(dracoMalfoy);
         ronVithly.setTransgress(68);
         System.out.println(ronVithly);
+
     }
 }

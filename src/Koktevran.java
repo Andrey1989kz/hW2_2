@@ -1,8 +1,8 @@
 public class Koktevran extends Hogwarts {
-    int mind;// ум
-    int wisdom;//мудрость
-    int wit;// остроумие
-    int creativity;
+   private int mind;// ум
+    private int wisdom;//мудрость
+    private int wit;// остроумие
+    private int creativity;
 
     public Koktevran(String name, String faculty, int transgress, int witchcraft, int mind, int wisdom, int wit, int creativity) {
         super(name, faculty, transgress, witchcraft);
@@ -67,7 +67,7 @@ public class Koktevran extends Hogwarts {
                     "\n" + studentSecond.name + " сильнее чем " + this.name);
         } else {
             System.out.println("Сравнение студентов факультета Коктевран:" +
-                    "\n" + this.name + " одинаковы по силе " + studentSecond);
+                    "\n" + this.name + " одинаковы по силе " + studentSecond.name);
         }
     }
 }
